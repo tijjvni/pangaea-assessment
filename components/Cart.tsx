@@ -62,7 +62,7 @@ export default function Cart() {
 												<>
 							        	{cart.map((item) => (
 
-													<li className="flex flex-col py-2 sm:justify-between">
+													<li key={item.id} className="flex flex-col py-2 sm:justify-between">
 												        <div className="flex">
 												          <a onClick={() => dispatch(removeFromCart(item))} className="flex-1 bg-gray-light text-right font-bold cursor-pointer"> x </a>
 												        </div>  
