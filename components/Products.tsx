@@ -76,7 +76,7 @@ export default function Products() {
   return (
   	<>
 	   	<div className=" px-3 my-3">
-	      <div class="relative">
+	      <div className="relative">
 	        <select onChange={changeCurrency} className="block appearance-none bg-gray-200 border border-gray-500 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
 		      {currencyOptions}
 	        </select>

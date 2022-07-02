@@ -49,7 +49,7 @@ export default function Cart() {
 			            </div>			            
 			            <div className="text-center my-2 px-4 flex justify-between">
 			            	<Link href="/">
-				            	<span className="text-lg text-gray-700 border border-gray-200 rounded-full py-2 px-4 cursor-pointer">></span>
+				            	<span className="text-lg text-gray-700 border border-gray-200 rounded-full py-2 px-4 cursor-pointer">&gt;</span>
 			            	</Link>
 			            </div>
 			            <div className="relative flex-1 px-4 sm:px-6">

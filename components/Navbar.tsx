@@ -27,9 +27,11 @@ export default function Navbar() {
 							<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 ">Learn</a>
 						</li>
 					</ul>
-					<a rel="noopener noreferrer" href="/" aria-label="Homepage" className="flex text-xl items-center p-2 tracking-[.75em]">
-						LUMIN
-					</a>
+					<Link href="/">
+						<a rel="noopener noreferrer" aria-label="Homepage" className="flex text-xl items-center p-2 tracking-[.75em]">
+							LUMIN
+						</a>
+					</Link>
 					<div className="flex items-center md:space-x-4">
 
 						<Link href="/cart">
