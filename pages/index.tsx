@@ -6,7 +6,6 @@ import Image from 'next/image'
 import ClientOnly from "../components/ClientOnly";
 import Products from "../components/Products";
 import Navbar from "../components/Navbar";
-import Cart from "../components/Cart";
 
 const Home: NextPage = () => {
   return (
